@@ -1,0 +1,24 @@
+[
+  {
+    "entity": "order",
+    "id": "ORD-1001",
+    "parent": {
+      "customer_id": "cust01"
+    },
+    "children": {
+      "entries": [
+        {
+          "entryNumber": 0,
+          "quantity": 2,
+          "product": {
+            "code": "SKU-1001"
+          }
+        }
+      ]
+    },
+    "source": {
+      "code": "ORD-1001",
+      "status": "COMPLETED"
+    }
+  }
+]

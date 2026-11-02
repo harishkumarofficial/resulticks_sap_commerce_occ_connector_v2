@@ -1,0 +1,11 @@
+# Tenant sign-off
+- [ ] SAP Commerce version/deployment recorded; tenant Swagger saved.
+- [ ] Base URL, OCC prefix, baseSiteId, token URL and OAuth grant verified.
+- [ ] Client permissions/user group and data access approved.
+- [ ] Product search/detail fields and pagination tested.
+- [ ] Category tree endpoint confirmed (not assumed from catalog metadata).
+- [ ] Customer population source agreed; standard OCC profile is user-scoped.
+- [ ] Address, order history and order detail tested for multiple users.
+- [ ] Parent/child mapping and identity keys agreed with Aura.
+- [ ] Rate limits, retries, watermark, replay and deletions agreed.
+- [ ] Non-production sign-off before production.

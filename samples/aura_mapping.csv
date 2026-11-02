@@ -1,0 +1,1 @@
+source_entity,source_path,relationship,target_concept\nproduct,code,parent,Product.product_id\ncustomer,uid,parent,Customer.customer_id\ncustomer,addresses[],child,CustomerAddress\norder,code,parent,Order.order_id\norder,entries[],child,OrderLine\norder,customer_id,parent_reference,Customer.customer_id\norder.entries,product.code,foreign_key,Product.product_id\n

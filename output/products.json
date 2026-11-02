@@ -1,0 +1,26 @@
+[
+  {
+    "entity": "product",
+    "id": "SKU-1001",
+    "parent": null,
+    "children": {
+      "categories": [
+        {
+          "code": "electronics"
+        }
+      ],
+      "images": [],
+      "price": {
+        "value": 499,
+        "currencyIso": "USD"
+      },
+      "stock": {
+        "stockLevel": 12
+      }
+    },
+    "source": {
+      "code": "SKU-1001",
+      "name": "Sample Headphones"
+    }
+  }
+]

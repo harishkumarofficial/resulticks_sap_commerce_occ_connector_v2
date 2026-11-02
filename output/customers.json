@@ -1,0 +1,19 @@
+[
+  {
+    "entity": "customer",
+    "id": "cust01",
+    "parent": null,
+    "children": {
+      "addresses": [
+        {
+          "id": "addr01",
+          "town": "Sample City"
+        }
+      ]
+    },
+    "source": {
+      "uid": "cust01",
+      "name": "Sample Customer"
+    }
+  }
+]
